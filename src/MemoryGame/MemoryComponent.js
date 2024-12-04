@@ -52,7 +52,7 @@ function MemoryComponent() {
             key={index}
             className="rounded-lg flex justify-center items-center text-[20px] border-none hover:cursor-pointer transition-all duration-100 ease-in-out"
             style={{
-                backgroundColor: open[index] && open[index].isOpen ? '#4ade80' : '#d1d5db'
+                backgroundColor:  open[index].isOpen ? '#3b82f6' : '#d1d5db'
             }}
             onClick={() => openGrid(index)}
           >
