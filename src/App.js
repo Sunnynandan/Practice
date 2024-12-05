@@ -1,13 +1,11 @@
 import MemoryComponent from "./MemoryGame/MemoryComponent";
 import StepperApp from "./Stepper/StepperApp";
 
-
 function App() {
-  
   return (
     <div>
-      {/* <StepperApp/> */}
-      <MemoryComponent/>
+      {/* <StepperApp /> */}
+      <MemoryComponent />
     </div>
   );
 }
